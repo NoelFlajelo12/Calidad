@@ -20,7 +20,7 @@ class CustomContentHandler( xml.sax.ContentHandler ):
         self.listAttr = ['osmid_original', 'lon', 'lat', 'length']
         self.listKeys = []
 
-# Call when an element start
+# Call when an element star
     
     def startElement(self, tag, attributes):
         self.CurrentData = tag
